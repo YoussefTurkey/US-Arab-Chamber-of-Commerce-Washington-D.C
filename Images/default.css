@@ -1,0 +1,154 @@
+body, td, th { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: normal; line-height: 18px; font-weight: normal; font-variant: normal; text-transform: none }
+body { background-color: #036; background-image: url(../~/Images/background.png); background-repeat: repeat-x; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px }
+h1, h2, h3, h4, h5, h6 { font-family: Verdana, Geneva, sans-serif }
+h1 { font-size: 24px; color: #666; font-style: normal; line-height: 18px; font-weight: normal; font-variant: normal; text-transform: none; font-family: Verdana, Geneva, sans-serif; padding-bottom: 10px }
+.h1 { font-size: 32px; color: #3f91bf; font-style: normal; font-weight: bold; font-variant: normal; text-transform: none; margin: 15px }
+h2 { font-size: 18px; color: #036; font-style: normal; line-height: 18px; font-weight: normal; font-variant: normal; text-transform: none; font-family: Verdana, Geneva, sans-serif; margin: 0px;  }
+h3 { font-size: 12px; color: #c03; font-style: normal; line-height: 18px; font-weight: normal; font-variant: normal; text-transform: none; font-family: Verdana, Geneva, sans-serif; margin: 0px;  }
+h4 { font-size: 12px; color: #363; font-style: normal; line-height: 18px; font-weight: bold; font-variant: normal; text-transform: none; font-family: Verdana, Geneva, sans-serif; margin: 0px }
+h5 { font-size: 9px; color: #000; }
+h6 { font-size: 18px; color: #036; font-style: normal; line-height: 18px; font-weight: normal; font-variant: normal; text-transform: none; font-family: Verdana, Geneva, sans-serif; margin-top: 15px }
+a:link { color: #333; text-decoration: none }
+a:visited { text-decoration: none; color: #333 }
+a:hover { text-decoration: none; color: #333 }
+a:active { text-decoration: none; color: #333 }
+hr { background-color: #ccc; width: 90%; height: 1px; border: 0px }
+.clear { clear: both }
+#wrapper { width: 960px; margin-left: auto; margin-right: auto; margin-bottom: 10px }
+.wrapper-top { width: 960px; height: 10px; margin: auto; margin-top: 10px; background-image: url(../~/Images/wrapper-top.gif); background-repeat: no-repeat; background-position: center top }
+.wrapper-footer { width: 960px; margin: 0px; height: 10px; background-image: url(../~/Images/footer.gif); background-repeat: no-repeat; background-position: center top }
+#header { background-image: url(../~/Images/header.gif); background-repeat: repeat-x; background-position: left top; width: 958px; height: 100px; border-left: 1px solid #ccc; border-right: 1px solid #ccc; margin: 0px }
+#logo { width: 535px; height: 100px; background-image: url(../~/Images/logo3.gif); background-repeat: no-repeat; background-position: left top; margin-left: 10px; margin-right: 5px; float: left }
+#logo a { text-indent: -9999px; display: block; width: 340px; height: 100px }
+#ADV { width: 306px; height: 120px; background-image: url(../~/Images/ADV.jpg); background-repeat: no-repeat; float: left; cursor: pointer; }
+#stampsearch { width: 320px; height: 100px; margin-right: 10px; float: right }
+.stampsearch-button { width: 330px; height: 41px; margin: 0px; border: thin }
+#stampsearch .stamptext { width: 270px; height: 25px; color: #bebebe; border: 1px; margin-top: 7px; margin-bottom: 5px; padding-top: 5px; padding-left: 15px; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; letter-spacing: 1.3px; background-color: transparent }
+.navigation { margin-left: auto; margin-right: auto }
+.menu { border: none; border: 0px; margin: 0px; padding: 0px; text-decoration: none; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: bold; color: #343434 }
+.menu ul { background-color: transparent; background-image: url(../~/Images/menu.gif); background-repeat: repeat-x; background-position: left top; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 1px solid #fff; height: 28px; list-style: none; margin: 0; padding: 0 }
+.menu li { float: left; padding: 0px }
+.menu li a { color: #343434; display: block; font-weight: normal; line-height: 28px; margin: 0px; padding: 0px 20px; text-align: center; text-decoration: none; background-color: transparent; background-image: url(../~/Images/divider.gif); background-repeat: no-repeat; background-position: right bottom }
+.menu li a:hover, .menu ul li:hover a { color: #343434; text-decoration: none; background-image: url(../~/Images/navhover.gif); background-repeat: no-repeat; background-position: center bottom }
+.menu li ul { background: #fff; display: none; height: auto; padding: 0px; margin: 0px; border: 0px; position: absolute; width: 225px; z-index: 200 }
+.menu li:hover ul { display: block }
+.menu li li { display: block; float: none; margin: 0px; padding: 0px; width: 225px }
+.menu li li img { float: right; margin: 5px }
+.menu li:hover li a { background: none }
+.menu li ul a { display: block; height: 28px; font-size: 12px; font-style: normal; margin: 0px; padding: 0px 10px 0px 15px; text-align: left; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: dashed; border-left-style: solid; border-top-color: #fff; border-right-color: #ccc; border-bottom-color: #ccc; border-left-color: #fff }
+.menu li ul a:hover, .menu li ul li:hover a { border: 0px; color: #666; text-decoration: none; background-color: #e9e9e9; background-image: url(../~/Images/hover.gif); background-repeat: no-repeat; background-position: left center; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: dashed; border-left-style: solid; border-top-color: #fff; border-right-color: #ccc; border-bottom-color: #ccc; border-left-color: #fff }
+.menu p { clear: left }
+#cases-main { width: 940px; margin-left: auto; margin-right: auto; background-image: url(../~/Images/cases-main.gif); background-repeat: repeat-x; background-position: left top; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 1px solid #fff; border-bottom: 1px solid #fff; padding-top: 10px; padding-left: 9px; padding-right: 9px; padding-bottom: 10px; background-color: #eee }
+#cases-container { width: 940px; margin-top: 10px }
+#cases-separator { /*background-image: url(../~/Images/separators.gif);*/ background-repeat: no-repeat; background-position: center bottom }
+.case-one { width: 278px; height: 158px; padding: 10px; margin-right: 10px; margin-bottom: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/caseone.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-two { width: 278px; height: 158px; padding: 10px; margin-right: 10px; margin-left: 10px; margin-bottom: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/casetwo.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-three { width: 278px; height: 158px; padding: 10px; margin-left: 10px; margin-bottom: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/casethree.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-four { width: 278px; height: 158px; padding: 10px; margin-right: 10px; margin-top: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/casefour.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-five { width: 278px; height: 158px; padding: 10px; margin-right: 10px; margin-left: 10px; margin-top: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/casefive.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-six { width: 278px; height: 158px; padding: 10px; margin-left: 10px; margin-top: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/casesix.gif); background-repeat: no-repeat; background-position: center center; position: relative }
+.case-seven { width: 278px; padding: 10px; float: left; border: 1px solid #ccc; /*background-image: url(../~/Images/cases.gif);*/ background-repeat: repeat-x; background-position: left bottom; position: relative }
+.case-eight { width: 278px; height: 158px; padding: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/cases.gif); background-repeat: repeat-x; background-position: left bottom; position: relative }
+.case-seven-extended { width: 443px; height: 108px; padding: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/cases.gif); background-repeat: repeat-x; background-position: left bottom; position: relative; margin-right: 5px }
+.case-eight-extended { width: 443px; height: 108px; padding: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/cases.gif); background-repeat: repeat-x; background-position: left bottom; position: relative; margin-left: 5px }
+a.button { display: block; height: 21px; width: 105px; background-position: left top; text-decoration: none; background-image: url(../~/Images/button.png); padding-top: 3px; padding-left: 10px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: right; position: absolute; bottom: 10px; right: 10px }
+a:hover.button { display: block; height: 21px; width: 105px; background-position: left bottom; text-decoration: none; color: #333 }
+a.button2 { display: block; height: 54px; width: 174px; background-position: left top; text-decoration: none; background-image: url(../~/Images/register1.jpg); }
+a:hover.button2 { display: block; height: 54px; width: 174px; background-position: left bottom; text-decoration: none; }
+a.pagebutton { display: block; height: 21px; width: 105px; background-position: left top; text-decoration: none; background-image: url(../~/Images/button.png); padding-top: 3px; padding-left: 10px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic }
+a:hover.pagebutton { display: block; height: 21px; width: 105px; background-position: left bottom; text-decoration: none; color: #333 }
+p.cases { margin-top: 5px }
+#container { width: 940px; margin-left: auto; margin-right: auto; background-image: url(../~/Images/container.gif); background-repeat: repeat-x; background-position: left top; border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding-top: 10px; padding-left: 9px; padding-right: 9px; padding-bottom: 10px; background-color: #fff }
+.left-sidebar { width: 300px; float: left; margin-right: 10px; }
+.right-container { width: 620px; float: right; margin-left: 10px }
+#breadcrumb { text-align: left; font-size: 10px; color: #888; height: 25px; margin-bottom: 5px }
+#breadcrumb a { color: #000; text-decoration: none }
+#breadcrumb a:hover { color: #000; text-decoration: underline }
+.container-content { width: 598px; padding: 10px; margin-top: 5px; margin-bottom: 5px; border: 1px solid #ccc; /*background-image: url(../~/Images/container-content.gif);
+	background-color: #fff;*/ background-repeat: repeat-x; background-position: left bottom }
+.container-content p { margin-top: 5px; text-align: justify; }
+.container-content img { margin-top: 10px; float: left; margin-right: 10px; }
+.container-content img.contactimage { float: none }
+.block-bookmark { float: right; margin-right: 10px; margin-top: 5px }
+.rss { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.rss a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/rss.gif); background-repeat: no-repeat; background-position: center top }
+.rss a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/rss.gif); background-repeat: no-repeat; background-position: center bottom }
+.linkedin { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.linkedin a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/linkedin.gif); background-repeat: no-repeat; background-position: center top }
+.linkedin a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/linkedin.gif); background-repeat: no-repeat; background-position: center bottom }
+.stumble { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.stumble a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/stumble.gif); background-repeat: no-repeat; background-position: center top }
+.stumble a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/stumble.gif); background-repeat: no-repeat; background-position: center bottom }
+.diggit { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.diggit a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/dig.gif); background-repeat: no-repeat; background-position: center top }
+.diggit a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/dig.gif); background-repeat: no-repeat; background-position: center bottom }
+.delicious { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.delicious a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/delicious.gif); background-repeat: no-repeat; background-position: center top }
+.delicious a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/delicious.gif); background-repeat: no-repeat; background-position: center bottom }
+.facebook { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.facebook a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/facebook.gif); background-repeat: no-repeat; background-position: center top }
+.facebook a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/facebook.gif); background-repeat: no-repeat; background-position: center bottom }
+.twitter { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.twitter a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/twitter.gif); background-repeat: no-repeat; background-position: center top }
+.twitter a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/twitter.gif); background-repeat: no-repeat; background-position: center bottom }
+.google { display: block; overflow: hidden; width: 32px; height: 32px; float: left; margin-left: 5px }
+.google a { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/google_plus.gif); background-repeat: no-repeat; background-position: center top }
+.google a:hover { width: 32px; height: 32px; display: block; text-indent: -9999px; background-image: url(../~/Images/google_plus.gif); background-repeat: no-repeat; background-position: center bottom }
+#contact { margin-top: 10px; padding: 10px }
+.contact-image { float: left; width: 32px; height: 32px; margin-right: 5px; margin-top: 5px }
+.contact-details { float: left; margin-left: 5px; margin-top: 5px; padding: 5px }
+#copyright { width: 960px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #fff }
+#copyright a { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #eee; text-decoration: none }
+#copyright a:hover { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #eee; text-decoration: underline }
+.copy-right { float: right; text-align: right }
+.copy-left { float: left; text-align: left }
+.case-submenu { width: 278px; padding: 10px; float: left; border: 1px solid #ccc; background-image: url(../~/Images/cases.gif); background-repeat: repeat-x; background-position: left bottom; position: relative; background-color: #FFF }
+#verticalmenu { /*float: left;*/ list-style: none; margin: 0; padding: 0; width: 900px }
+#verticalmenu li, #verticalmenu li.active { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px }
+#verticalmenu li.active { color: #666; background-color: #e9e9e9 }
+#verticalmenu li img, #verticalmenu li.active img { float: right; margin: 5px; margin-top: 7px }
+#verticalmenu a { color: #666; display: block; margin: 0; padding: 8px 12px; text-decoration: none; border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #ccc }
+#verticalmenu a:hover { color: #666; padding-bottom: 8px; background-color: #e9e9e9; background-image: url(../~/Images/hover.gif); background-repeat: no-repeat; background-position: left center }
+#verticalsubmenu { float: left; list-style: none; margin: 0; padding: 0; width: 278px }
+#verticalsubmenu li, #verticalsubmenu li.active { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px }
+#verticalsubmenu li.active { color: #666; background-color: #e9e9e9 }
+#verticalsubmenu a { color: #666; display: block; margin: 0; padding: 8px 22px; text-decoration: none; border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #ccc }
+#verticalsubmenu a:hover { color: #666; padding-bottom: 8px; background-color: #e9e9e9 }
+.formtitle { width: 100px; margin: 5px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: italic; color: #333 }
+.formtextarea { width: 468px; margin: 5px; margin-right: 0px; border: 1px solid #ccc; background-image: url(../~/Images/contact-textarea.gif); background-repeat: repeat-x; background-position: left top; font-family: Arial, Helvetica, sans-serif; color: #666; font-size: 14px; padding: 5px }
+.formbutton { margin: 5px; margin-right: 0px; float: right }
+.downloads { margin-left: auto; margin-right: auto; border: 1px solid #ccc; background-color: #f6f6f6; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 16px; color: #333 }
+.downloads-left { float: left; width: 270px; margin: 5px }
+.downloads-right { float: right; width: 270px; margin: 5px }
+.downloads img { margin: 5px; float: left }
+a.doc { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/doc-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: left; margin: 10px }
+a:hover.doc { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+a.dci { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/ci-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: left; margin: 10px }
+a:hover.dci { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+a.dco { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/co-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: left; margin: 10px }
+a:hover.dco { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+a.dcor { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/recog-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: left; margin: 10px }
+a:hover.dcor { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+a.dad { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/appended-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: left; margin: 10px }
+a:hover.dad { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+a.pdf { display: block; height: 60px; width: 270px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/pdf-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: right; margin: 10px }
+a:hover.pdf { display: block; height: 60px; width: 270px; background-position: left bottom; text-decoration: none; color: #333 }
+.footnotes { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 10px; color: #666 }
+.footnotes-address { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 11px; color: #666; padding-top: 10px; clear: both }
+.red-text { color: #c00 }
+.blue-text { color: #00f }
+.request { color: #c00; font-weight: bold; text-align: center }
+a.special { color: #03f }
+a.extraspecial { color: #063 }
+a.chart-all { display: block; height: 100px; width: 588px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/chart-all-button.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: right; margin: 10px }
+a:hover.chart-all { display: block; height: 100px; width: 588px; background-position: left bottom; text-decoration: none; color: #333 }
+#hor-minimalist-b { font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; font-size: 12px; background: #fff; margin: 10px; width: 579px; border-collapse: collapse; text-align: left }
+#hor-minimalist-b th { font-size: 14px; font-weight: normal; color: #039; padding: 10px 8px; border-bottom: 2px solid #6678b1 }
+#hor-minimalist-b th.footerend { font-size: 14px; font-weight: normal; color: #039; padding: 10px 8px; border-top: 2px solid #6678b1; border-bottom: 0px }
+#hor-minimalist-b td { border-bottom: 1px solid #ccc; color: #669; padding: 6px 8px }
+#hor-minimalist-b tbody tr:hover td { color: #009 }
+a.chart-one { display: block; height: 100px; width: 588px; background-position: left top; text-decoration: none; text-indent: -9999px; background-image: url(../~/Images/chart-country.gif); font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #333; font-style: italic; float: right; margin: 10px }
+a:hover.chart-one { display: block; height: 100px; width: 588px; background-position: left bottom; text-decoration: none; color: #333 }
+fieldset { border: 2px solid #ccc; margin-left: 35px; padding: 0 20px 20px; width: 500px; }
+.btn-primary { background: none repeat scroll 0 0 #c52d2f; border: medium none; border-radius: 4px; color: #fff; margin-top: 10px; padding: 8px 20px; }
+.btn { -moz-user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; cursor: pointer; display: inline-block; font-size: 14px; font-weight: normal; line-height: 1.42857; margin-bottom: 0; padding: 6px 12px; text-align: center; vertical-align: middle; white-space: nowrap; margin-left: 265px; }
