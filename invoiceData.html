@@ -152,22 +152,77 @@
                         <p>To use this service, there is a handling fee of 5% of the total charges added to the bill. 
                             This charge is necessary due to the fact that we have to distribute part of the fee to the state and/or embassy.
                         </p>
-                        <p><b>Please enter your credit card number</b></p>
-                        <input type="text" class="form-control w-50" placeholder="XXXXXXXXXXXXXXXXXXXXXXXXXXX">
                     </div>
 
-                    <table class="table table-bordered country_doc">
-                        <thead>
-                            <th>Country Name</th>
-                            <th>Document No.</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>UAE</td>
-                                <td>2</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="card_contaniner">
+                        <div class="inp_credit_card">
+
+                            <form class="card_form mt-5">
+                                <div class="pay mt-4">
+                                    <label for="pay_credit_card">Total Amount to Pay</label>
+                                    <input type="number" id="pay_credit_card" class="form-control">
+                                </div>
+    
+                                <div class="name mt-4">
+                                    <label for="name_credit_card">Name</label>
+                                    <input type="text" id="name_credit_card" class="form-control">
+                                </div>
+        
+                                <div class="card_num mt-4">
+                                    <label for="num_credit_card">Card Number</label>
+                                    <input type="number" id="num_credit_card" class="form-control">
+                                </div>
+        
+                                <div class="ex_date mt-4">
+                                    <label for="ex_date">Expiration Date</label>
+        
+                                    <div class="select_card">
+                                        <select id="ex_date_month" class="form-control w-25">
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                        </select>
+                                        <select id="ex_date_year" class="form-control w-25">
+                                            <option value="2016">2016</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                        </select>
+                                    </div>
+        
+                                    <div class="card_imgs" class="w-50">
+                                        <img src="Images/visa.jpg" alt="visa">
+                                        <img src="Images/mastercard.jpg" alt="mastercard">
+                                        <img src="Images/amex.jpg" alt="amex">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+    
+                        <div class="card_bank">
+                            <div class="blank_line"></div>
+    
+                            <div class="chip">
+                                <img src="Images/chip-pin-01.png" alt="chip">
+                                <span>World Bank</span>
+                            </div>
+    
+                            <div class="inputs_card">
+                                <p id="input_name"></p>
+    
+                                <p id="input_number"></p>
+                                
+                                <div class="inputs_date">
+                                    <span id="input_month"></span>
+                                    <span id="sep">/</span>
+                                    <span id="input_year"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

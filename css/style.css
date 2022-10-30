@@ -1334,18 +1334,18 @@ hr{
     padding: 15px 0;
     color: var(--main-color-2);
 }
-#content_credit_card .card_contaniner{
+.card_contaniner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-#content_credit_card .card_contaniner .inp_credit_card .chx{
+.card_contaniner .inp_credit_card .chx{
     display: flex;
     justify-content: space-between;
 }
-#content_credit_card .card_contaniner .inp_credit_card .chx .cc input[type='radio'],
-#content_credit_card .card_contaniner .inp_credit_card .chx .bill input[type='radio'],
-#content_credit_card .card_contaniner .inp_credit_card .chx .ck input[type='radio']{
+.card_contaniner .inp_credit_card .chx .cc input[type='radio'],
+.card_contaniner .inp_credit_card .chx .bill input[type='radio'],
+.card_contaniner .inp_credit_card .chx .ck input[type='radio']{
     -webkit-appearance: none;
     appearance: none;
     border: 1px solid #ddd;
@@ -1355,9 +1355,9 @@ hr{
     cursor: pointer;
     position: relative;
 }
-#content_credit_card .card_contaniner .inp_credit_card .chx .cc input[type='radio']:checked:after,
-#content_credit_card .card_contaniner .inp_credit_card .chx .bill input[type='radio']:checked:after,
-#content_credit_card .card_contaniner .inp_credit_card .chx .ck input[type='radio']:checked:after{
+.card_contaniner .inp_credit_card .chx .cc input[type='radio']:checked:after,
+.card_contaniner .inp_credit_card .chx .bill input[type='radio']:checked:after,
+.card_contaniner .inp_credit_card .chx .ck input[type='radio']:checked:after{
     content: '\2713';
     position: absolute;
     font-size: var(--paragraph-size);
@@ -1370,65 +1370,66 @@ hr{
     height: 25px;
     border: 2px solid var(--hover-color);
 }
-#content_credit_card .card_contaniner .inp_credit_card .chx .cc,
-#content_credit_card .card_contaniner .inp_credit_card .chx .bill,
-#content_credit_card .card_contaniner .inp_credit_card .chx .ck{
+.card_contaniner .inp_credit_card .chx .cc,
+.card_contaniner .inp_credit_card .chx .bill,
+.card_contaniner .inp_credit_card .chx .ck{
     display: flex;
     align-items: center;
     font-size: var(--paragraph-size);
 }
-#content_credit_card .card_contaniner .inp_credit_card .chx .cc label,
-#content_credit_card .card_contaniner .inp_credit_card .chx .bill label,
-#content_credit_card .card_contaniner .inp_credit_card .chx .ck label{
+.card_contaniner .inp_credit_card .chx .cc label,
+.card_contaniner .inp_credit_card .chx .bill label,
+.card_contaniner .inp_credit_card .chx .ck label{
     padding-left: 15px;
     cursor: pointer;
 }
-#content_credit_card .card_contaniner .inp_credit_card .ex_date .select_card{
+.card_contaniner .inp_credit_card .ex_date .select_card{
     display: flex;
 }
-#content_credit_card .card_contaniner .inp_credit_card .ex_date .card_imgs{
+.card_contaniner .inp_credit_card .ex_date .card_imgs{
     margin: 15px 0;
     float: right;
 }
-#content_credit_card .card_contaniner .card_bank{
+.card_contaniner .card_bank{
     background-color: #4c5150;
     width: 441px;
     height: 300px;
     border-radius: 1rem;
+    margin-top: 70px;
 }
-#content_credit_card .card_contaniner .card_bank .blank_line{
+.card_contaniner .card_bank .blank_line{
     background-color: #1c1c1c;
     width: 100%;
     height: 41px;
     margin-top: 17px;
 }
-#content_credit_card .card_contaniner .card_bank .chip{
+.card_contaniner .card_bank .chip{
     max-width: 100%;
     padding: 15px;
     display: flex;
     align-items: center;
 }
-#content_credit_card .card_contaniner .card_bank .chip img{
+.card_contaniner .card_bank .chip img{
     width: 15%;
 }
-#content_credit_card .card_contaniner .card_bank .chip span{
+.card_contaniner .card_bank .chip span{
     padding-left: 15px;
     font-size: var(--header-text-size);
     color: var(--white-color);
 }
-#content_credit_card .card_contaniner .card_bank .inputs_card #input_name,
-#content_credit_card .card_contaniner .card_bank .inputs_card #input_number{
+.card_contaniner .card_bank .inputs_card #input_name,
+.card_contaniner .card_bank .inputs_card #input_number{
     font-size: var(--text-size);
     color: var(--wheat-color);
     padding-left: 15px;
     border-bottom: 1px dotted var(--white-color);
 }
-#content_credit_card .card_contaniner .card_bank .inputs_card .inputs_date{
+.card_contaniner .card_bank .inputs_card .inputs_date{
     font-size: var(--text-size);
     color: var(--wheat-color);
     padding-left: 15px;
 }
-#content_credit_card .card_contaniner .card_bank .inputs_card .inputs_date #sep{
+.card_contaniner .card_bank .inputs_card .inputs_date #sep{
     color: var(--white-color);
 }
 @media screen and (max-width: 767px) {
@@ -1440,12 +1441,12 @@ hr{
     #content_credit_card .title{
         padding: 60px 0 0 0;
     }
-    #content_credit_card .card_contaniner{
+    .card_contaniner{
         grid-template-columns: repeat(1, 1fr);
     }
-    #content_credit_card .card_contaniner .inp_credit_card .chx .cc,
-    #content_credit_card .card_contaniner .inp_credit_card .chx .bill,
-    #content_credit_card .card_contaniner .inp_credit_card .chx .ck{
+    .card_contaniner .inp_credit_card .chx .cc,
+    .card_contaniner .inp_credit_card .chx .bill,
+    .card_contaniner .inp_credit_card .chx .ck{
         font-size: 18px;
     }
 }
@@ -1743,7 +1744,7 @@ hr{
 /* -------- Pay Invoice Data Page -------- */
 #content_invoiceData{
     width: 70%;
-    height: 120vh;
+    height: 150vh;
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1793,13 +1794,8 @@ hr{
     width: 25px;
     height: 25px;
 }
+
 #content_invoiceData .card_invDate{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 35px;
-    gap: 20px;
-}
-#content_invoiceData .card_invDate .credit{
     background-color: #ededed;
     border-radius: 1.5rem;
     padding: 15px;
@@ -1836,16 +1832,19 @@ hr{
 /* -------- contact Page -------- */
 #content_contact{
     width: 70%;
-    height: 80vh;
+    height: 50vh;
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
 }
-#content_contact .title{
-    text-align: center;
-    font-size: 35px;
-    padding: 15px 0;
+#content_contact .map h4{
     color: var(--main-color-2);
+    font-size: var(--header-text-size);
+    padding: 25px 0;
+}
+#content_contact .contact_card{
+    display: flex;
+    justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
     #content_contact{
@@ -1878,9 +1877,16 @@ hr{
 #content_print .header .qr{
     max-width: 100%;
 }
-#content_print .header .logo img,
+#content_print .header .logo img{
+    width: 70%;
+    margin-left: -52%;
+}
 #content_print .header .qr img{
-    width: 50%;
+    width: 30%;
+    margin-right: -15%;
+}
+#content_print .header .title{
+    width: 69%;
 }
 #content_print .body .title{
     background-color: var(--main-color);
