@@ -611,7 +611,8 @@ hr{
 /* -------- Document Certification Page -------- */
 .bus_inv,
 .bus_doc{
-    height: 100vh !important;
+    /* height: 100vh !important; */
+    min-height: calc(100vh - 230px);
 }
 .bus_inv .countries_selections,
 .bus_doc .countries_selections{
@@ -619,13 +620,15 @@ hr{
 }
 #content_card_view{
     width: 70%;
-    height: 70vh;
+    /* height: 70vh; */
+    min-height: calc(100vh - 230px);
     margin-left: 15%;
     background-color: var(--white-color);
 }
 #content_invoice{
     width: 70%;
-    height: 180vh;
+    /* height: 180vh; */
+    min-height: calc(100vh - 230px);
     margin-left: 15%;
     background-color: var(--white-color);
 }
@@ -1086,7 +1089,8 @@ hr{
         width: 100%;
         padding: 55px 25px 15px 25px;
         margin-left: 0;
-        height: 215vh;
+        /* height: 215vh; */
+        min-height: calc(100vh - 230px);
     }
     #content_invoice .stemp .img{
         display: none;
@@ -1118,7 +1122,8 @@ hr{
     /* ------ Invoice origin page ------- */
     .bus_inv,
     .bus_doc{
-        height: 180vh !important;
+        /* height: 180vh !important; */
+        min-height: calc(100vh - 230px);
     }
     .bahrain_case,
     .UAE_pre_case,
@@ -1155,7 +1160,8 @@ hr{
     /* ------ Cart Preview ----- */
     #content_card_view{
         width: 100%;
-        height: 50.5vh;
+        /* height: 50.5vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_card_view .result{
@@ -1186,7 +1192,8 @@ hr{
 /* -------- Payment Page -------- */
 #content_payment{
     width: 70%;
-    height: 70vh;
+    /* height: 70vh; */
+    min-height: calc(100vh - 230px);
     margin-left: 15%;
     background-color: var(--white-color);
 }
@@ -1230,7 +1237,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_payment{
         width: 100%;
-        height: 140vh;
+        /* height: 140vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_payment .title{
@@ -1249,7 +1257,8 @@ hr{
 /* -------- Shipping Page -------- */
 #content_shipping{
     width: 70%;
-    height: 110vh;
+    /* height: 110vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1304,7 +1313,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_shipping{
         width: 100%;
-        height: 90vh;
+        /* height: 90vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_shipping .title{
@@ -1323,7 +1333,8 @@ hr{
 /* -------- Credit Card Page -------- */
 #content_credit_card{
     width: 70%;
-    height: 70vh;
+    /* height: 70vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1435,7 +1446,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_credit_card{
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
+        min-height: calc(100vh - 230px);
         margin-left: -2%;
     }
     #content_credit_card .title{
@@ -1455,7 +1467,8 @@ hr{
 /* -------- Counrty Page -------- */
 #content_country{
     width: 70%;
-    height: 270vh;
+    /* height: 270vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1552,7 +1565,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_country{
         width: 100%;
-        height: 480vh;
+        /* height: 480vh; */
+        min-height: calc(100vh - 230px);
         margin-left: -5%;
     }
     #content_country .counrty_info{
@@ -1604,7 +1618,8 @@ hr{
 /* -------- Trade Page -------- */
 #content_trade{
     width: 70%;
-    height: 200vh;
+    /* height: 200vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1625,7 +1640,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_trade{
         width: 100%;
-        height: 200vh;
+        /* height: 200vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_trade .title{
@@ -1641,7 +1657,8 @@ hr{
 /* -------- About Page -------- */
 #content_about{
     width: 70%;
-    height: 150vh;
+    /* height: 150vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1673,7 +1690,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_about{
         width: 100%;
-        height: 340vh;
+        /* height: 340vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_about .title{
@@ -1697,7 +1715,8 @@ hr{
 /* -------- Pay Invoice Page -------- */
 #content_pay{
     width: 70%;
-    height: 50vh;
+    /* height: 50vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1726,7 +1745,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_pay{
         width: 100%;
-        height: 65vh;
+        /* height: 65vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_pay .title{
@@ -1744,7 +1764,8 @@ hr{
 /* -------- Pay Invoice Data Page -------- */
 #content_invoiceData{
     width: 70%;
-    height: 150vh;
+    /* height: 150vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1811,7 +1832,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_invoiceData{
         width: 100%;
-        height: 160vh;
+        /* height: 160vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_invoiceData .title{
@@ -1832,7 +1854,8 @@ hr{
 /* -------- contact Page -------- */
 #content_contact{
     width: 70%;
-    height: 50vh;
+    /* height: 50vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1849,7 +1872,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_contact{
         width: 100%;
-        height: 80vh;
+        /* height: 80vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
     }
     #content_contact .title{
@@ -1861,7 +1885,8 @@ hr{
 /* -------- Printing the billing Page -------- */
 #content_print{
     width: 70%;
-    height: 85vh;
+    /* height: 85vh; */
+    min-height: calc(100vh - 230px);
     padding: 10px 50px;
     margin-left: 15%;
     background-color: var(--white-color);
@@ -1915,7 +1940,8 @@ hr{
 @media screen and (max-width: 767px) {
     #content_print{
         width: 100%;
-        height: 150vh;
+        /* height: 150vh; */
+        min-height: calc(100vh - 230px);
         margin-left: 0;
         padding: 50px;
     }
@@ -1952,6 +1978,6 @@ hr{
         right: 0;
         z-index: 10000;
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
