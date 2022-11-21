@@ -374,10 +374,6 @@ hr{
     color: var(--white-color);
 }
 
-.docName,
-.docName2{
-    width: 80%;
-}
 .docName .title,
 .docName2 .title{
     color: var(--main-color);
@@ -558,18 +554,11 @@ hr{
         margin-left: 0%;
         width: 120%;
     }
-    #content .countries .title{
-        margin-left: 10%;
-    }
     
     hr{
         width: 100%;
     }
 
-    .docName,
-    .docName2{
-        margin: -12% 0;
-    }
     .docName .divs,
     .docName2 .divs{
         display: grid;
