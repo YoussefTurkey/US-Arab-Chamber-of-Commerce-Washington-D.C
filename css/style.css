@@ -152,6 +152,8 @@ hr{
 }
 #header .navbar-toggler{
     background-color: var(--white-color);
+    margin: 0 0 0 auto;
+    
 }
 
 
@@ -512,7 +514,7 @@ hr{
         display: none;
     } */
     #header{
-        padding-left: 20px;
+        padding: 20px;
     }
 
     #description{
