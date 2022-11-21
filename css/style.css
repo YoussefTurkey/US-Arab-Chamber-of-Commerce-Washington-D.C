@@ -1236,27 +1236,6 @@ hr{
 #content_payment .pay .q{
     padding: 0 15px;
 }
-#content_payment .pay .fst_col .q label,
-#content_payment .pay .snd_col .q label{
-    font-weight: bold;
-    color: var(--main-color);
-}
-#content_payment .pay .fst_col .multi_q{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
-#content_payment .pay .snd_col .dbl_q{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    align-items: center;
-}
-#content_payment .pay .snd_col .dbl_q #out,
-#content_payment .pay .snd_col .dbl_q #out + label{
-    margin-top: 25px;
-    cursor: pointer;
-}
 @media (max-width: 1400px) and (min-width: 767px) {
     #content_payment{
         width: 100%;
@@ -1268,9 +1247,6 @@ hr{
         width: 100%;
         margin-left: 0;
         padding: 25px;
-    }
-    #content_payment .pay{
-        grid-template-columns: repeat(1, 1fr);
     }
     #content_payment .bttn{
         padding: 0 15px;
@@ -1323,13 +1299,10 @@ hr{
     cursor: pointer;
 }
 #content_shipping .ship_imgs{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
     margin: 25px 0;
 }
 #content_shipping .ship_imgs img{
-    width: 95%;
+    /* width: 50%; */
     box-shadow: 2px 3px 4px gainsboro;
 }
 #content_shipping #back_res{
@@ -1376,11 +1349,6 @@ hr{
     font-size: 35px;
     padding: 15px 0;
     color: var(--main-color-2);
-}
-.card_contaniner{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
 }
 .card_contaniner .inp_credit_card .chx{
     display: flex;
@@ -1484,9 +1452,6 @@ hr{
     #content_credit_card{
         width: 100%;
         min-height: calc(100vh - 230px);
-    }
-    .card_contaniner{
-        grid-template-columns: repeat(1, 1fr);
     }
     .card_contaniner .inp_credit_card .chx .cc,
     .card_contaniner .inp_credit_card .chx .bill,
@@ -1757,18 +1722,11 @@ hr{
 }
 #content_about .about_imgs{
     margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-#content_about .about_imgs .valid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
 }
 #content_about .about_imgs .valid img{
     border: 5px solid #ddd;
-}
-#content_about .about_imgs .valid p{
-    margin-left: -15%;
 }
 @media (max-width: 1400px) and (min-width: 767px) {
     #content_about{
@@ -1787,12 +1745,6 @@ hr{
     }
     #content_about .about_txt{
         font-size: 14px;
-    }
-    #content_about .about_imgs{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    #content_about .about_imgs .valid{
-        grid-template-columns: repeat(1, 1fr);
     }
     #content_about .about_imgs .valid p{
         margin-left: -0
@@ -1930,9 +1882,6 @@ hr{
     #content_invoiceData .pay_detail table thead,
     #content_invoiceData .pay_detail table tbody{
         font-size: 12px;
-    }
-    #content_invoiceData .card_invDate{
-        grid-template-columns: repeat(1, 1fr);
     }
 }
 
