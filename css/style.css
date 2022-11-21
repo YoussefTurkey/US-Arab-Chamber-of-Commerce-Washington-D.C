@@ -49,9 +49,6 @@ hr{
 
 #main_img{
     background-color: var(--white-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     max-width: 100%;
 }
 #main_img img{
@@ -227,11 +224,6 @@ hr{
     width: 80%;
     background-color: var(--white-color);
 }
-#content .data{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-}
 #content .choosing .title{
     font-size: 60px;
     font-weight: 600;
@@ -298,10 +290,6 @@ hr{
     margin-top: -12px;
 }
 
-#content .countries{
-    /* margin-left: 25%; */
-    width: 100%;
-}
 #content .countries .title{
     font-size: 40px;
     font-weight: 600;
@@ -309,14 +297,10 @@ hr{
     padding: 2% 0;
     text-align: center;
 }
-#content .countries .divs{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 40px;
-}
+
 #content .countries .col_one,
 #content .countries .col_two{
-    width: 100%;
+    width: 50%;
 }
 #content .countries .col_one .peek_country,
 #content .countries .col_two .peek_country{
@@ -387,13 +371,9 @@ hr{
     padding-left: 37px;
     color: var(--main-color-2);
 }
-.docName .divs{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+.docName .divs,
 .docName2 .divs{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
 }
 .docName .divs ul,
 .docName2 .divs ul{
@@ -433,6 +413,11 @@ hr{
     color: var(--white-color);
 }
 
+@media (max-width: 1659px) and (min-width: 1400px) {
+    #content .choosing .title{
+        font-size: 50px;
+    }
+}
 @media (max-width: 1400px) and (min-width: 990px) {
     #welcoming p{
         font-size: 13px;
@@ -452,9 +437,9 @@ hr{
     }
 }
 @media screen and (max-width: 990px) {
-    #content_country .counrty_info{
+    /* #content_country .counrty_info{
         grid-template-columns: repeat(1, 1fr) !important;
-    }
+    } */
     #content_country{
         width: 100% !important;
         margin-left: 0 !important;
@@ -471,9 +456,6 @@ hr{
 
     #main_img{
         background-color: var(--white-color);
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         max-width: 100%;
     }
     #main_img img{
@@ -536,8 +518,8 @@ hr{
     #content .data{
         /* padding-left: 10px 15px; */
         background-color: var(--white-color);
-        display: grid;
-        grid-template-columns: 1fr;
+        /* display: grid;
+        grid-template-columns: 1fr; */
     }
     #content .choosing .title{
         font-size: 40px;
@@ -553,20 +535,16 @@ hr{
         font-size: 16px;
         margin-top: 0px;
     }
-    #content .countries{
-        margin-left: 0%;
-        width: 120%;
-    }
     
     hr{
         width: 100%;
     }
 
-    .docName .divs,
+    /* .docName .divs,
     .docName2 .divs{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
+    } */
     .docName2 .title {
         display: block;
     }
@@ -595,10 +573,7 @@ hr{
 }
 
 .dci{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 20%;
-    padding: 15px 0;
+
 }
 .dci .pdf{
     margin-bottom: 10px;
@@ -775,11 +750,6 @@ hr{
 #content_invoice .countries_selections h5{
     color: var(--main-color);
 }
-#content_invoice .countries_selections .country_card{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
 #content_invoice .countries_selections .country_card .special_card{
     border-radius: 6px;
 }
@@ -789,7 +759,8 @@ hr{
     background-color: var(--main-color);
     color: var(--white-color);
     box-shadow: 2px 3px 4px gainsboro;
-    max-width: 90%;
+    max-width: 100%;
+    width: 23%;
     padding: 10px 25px;
     display: flex;
     flex-direction: row;
@@ -1142,6 +1113,13 @@ hr{
     }
 }
 @media screen and (max-width:767px) {
+    #content_invoice .countries_selections .country_card{
+        margin-left: 15%;
+    }
+    #content_invoice .countries_selections .country_card .card,
+    #content_invoice .countries_selections .country_card .special_card{
+        width: 35%;
+    }
     #content_invoice{
         width: 100%;
         padding: 15px 25px;
@@ -1157,11 +1135,7 @@ hr{
         font-weight: bold;
         padding-bottom: 15px;
     }
-    #content_invoice .countries_selections .country_card{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding-left: 50px;
-    }
+    
     #content_invoice .docs{
         width: 100%;
         margin-left: 0;
@@ -1249,7 +1223,7 @@ hr{
 /* -------- Payment Page -------- */
 #content_payment{
     width: 70%;
-    min-height: calc(100vh - 230px);
+    min-height: calc(100vh - 365px);
     background-color: var(--white-color);
 }
 #content_payment .title{
@@ -1258,15 +1232,9 @@ hr{
     padding: 15px 0;
     color: var(--main-color-2);
 }
-#content_payment .pay{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    /* padding-left: 50px; */
-}
-#content_payment .pay .fst_col .q,
-#content_payment .pay .snd_col .q{
-    margin: 25px 0;
+#content_payment .pay .q,
+#content_payment .pay .q{
+    padding: 0 15px;
 }
 #content_payment .pay .fst_col .q label,
 #content_payment .pay .snd_col .q label{
@@ -1298,15 +1266,11 @@ hr{
 @media screen and (max-width: 767px) {
     #content_payment{
         width: 100%;
-        min-height: calc(100vh - 230px);
         margin-left: 0;
-    }
-    #content_payment .title{
-        padding: 70px 0 0 0;
+        padding: 25px;
     }
     #content_payment .pay{
         grid-template-columns: repeat(1, 1fr);
-        padding: 0 15px;
     }
     #content_payment .bttn{
         padding: 0 15px;

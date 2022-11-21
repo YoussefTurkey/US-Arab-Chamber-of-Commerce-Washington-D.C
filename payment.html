@@ -23,10 +23,12 @@
                 <p>USACC welcomes you. We prefer to discuss any question about your document by phone rather than email, <b>Please call us at (202) 468-4200</b>.</p>
             </div>
             
-            <div class="col-md-12" id="main_img">
-                <img src="Images/logos/usarab-txtengdc.png" alt="en_title_US_Arab_chamber">
-                <img src="Images/logos/usarab-logoimg.png" alt="logo_US_Arab_chamber">
-                <img src="Images/logos/usarab-txtardc.png" alt="ar_title_US_Arab_chamber">
+            <div class="col-sm-12" id="main_img">
+                <div class="row d-flex justify-content-around">
+                    <img class="col-md-4" src="Images/logos/usarab-txtengdc.png" alt="en_title_US_Arab_chamber">
+                    <img class="col-md-4" src="Images/logos/usarab-logoimg.png" alt="logo_US_Arab_chamber">
+                    <img class="col-md-4" src="Images/logos/usarab-txtardc.png" alt="ar_title_US_Arab_chamber">
+                </div>
             </div>
 
             <nav class="navbar navbar-expand-lg col-sm-12" id="header">
@@ -84,8 +86,8 @@
             <div id="content_payment" class="container">
                 <h1 class="title"><i class='bx bxs-edit-alt' ></i> Please complete this form..</h1>
 
-                <form class="pay">
-                    <div class="fst_col">
+                <form class="row pay">
+                    <!-- <div class="fst_col">
                         <div class="q">
                             <label for="comp_name">Company Name</label>
                             <input type="text" id="comp_name" class="form-control" placeholder="company name">
@@ -155,6 +157,80 @@
                         <div class="q">
                             <label for="state">State</label>
                             <input type="text" id="state" class="form-control" placeholder="state">
+                        </div>
+                    </div> -->
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="compName">Company Name</label>
+                            <input class="col-12 form-control" type="text" id="compName" placeholder="company name">
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="address">Address</label>
+                            <input class="col-12 form-control" type="text" id="address" placeholder="1234 Main st.">
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="fname">First Name</label>
+                            <input class="col-12 form-control" type="text" id="fname" placeholder="first name">
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <div class="col-sm-12 col-md-4">
+                                <label class="col-12" for="ext">ext.</label>
+                                <input class="col-12 form-control" type="text" id="ext" placeholder="company name">
+                            </div>
+
+                            <div class="col-sm-12 col-md-4">
+                                <label class="col-12" for="phone">Phone</label>
+                                <input class="col-12 form-control" type="text" id="phone" placeholder="company name">
+                            </div>
+
+                            <div class="col-sm-12 col-md-4">
+                                <label class="col-12" for="cell">Cell Phone</label>
+                                <input class="col-12 form-control" type="text" id="cell" placeholder="company name">
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="city">City</label>
+                            <input class="col-12 form-control" type="text" id="city" placeholder="city">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="email">Email</label>
+                            <input class="col-12 form-control" type="email" id="email" placeholder="email">
+                        </div>
+
+                        <div class="row mb-4 q d-flex align-items-center justify-content-start">
+                            <div class="col-sm-6">
+                                <label for="zip">Zip</label>
+                                <input class=" form-control" type="number" id="zip" placeholder="zip code">
+                            </div>
+
+                            <div class="col-sm-6 ">
+                                <input type="checkbox" id="out">
+                                <label for="out">Out USA</label>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="lname">Last Name</label>
+                            <input class="col-12 form-control" type="text" id="lname" placeholder="last name">
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="ref">Reference</label>
+                            <input class="col-12 form-control" type="text" id="ref" placeholder="reference">
+                        </div>
+
+                        <div class="row mb-4 q">
+                            <label class="col-12" for="state">State</label>
+                            <input class="col-12 form-control" type="text" id="state" placeholder="state">
                         </div>
                     </div>
 
