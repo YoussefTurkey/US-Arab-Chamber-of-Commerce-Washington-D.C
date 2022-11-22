@@ -463,50 +463,13 @@ hr{
         padding: 0;
     }
 
-    /* #header{
-        width: 100%;
-        background-color: var(--main-color);
-        color: var(--white-color);
-        position: relative;
-    }
-    #header .mobile_screen{
-        position: absolute;
-        top: 0;
-        display: block;
-        font-size: 40px;
-        background-color: var(--main-color);
-        padding: 0px 15px;
-        width: 100%;
-        text-align: right;
-        cursor: pointer;
-    }
-    #header .links{
-        display: none;
-        padding-top: 55px;
-        flex-direction: column;
-    }
-    #header .links li{
-        padding: 5px 0;
-    }
-    #header .links li a{
-        margin-left: -200px;
-    }
-    #header #branches{
-        display: none;
-    } */
     #header{
         padding: 20px;
     }
 
-    #description{
-        /* padding-top: 60px; */
-        display: flex;
-        flex-direction: column;
-    }
     #description .info{
-        width: 80%;
-        padding: 0;
-        margin-left: -65px;
+        text-align: center;
+        padding: 0 15px;
     }
     #description .place{
         display: none;
