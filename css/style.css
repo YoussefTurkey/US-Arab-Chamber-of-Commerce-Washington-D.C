@@ -158,13 +158,13 @@ hr{
     width: 100%;
     background-color: var(--main-color-2);
     color: var(--white-color);
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; */
 }
-#description .info{
+/* #description .info{
     width: 65%;
-}
+} */
 #description .info h4{
     padding: 5px 0;
     font-size: var(--header-text-size);
@@ -194,7 +194,7 @@ hr{
     width: 2px;
     height: 100%;
     position: absolute;
-    left: -10.5%;
+    left: -11.7%;
     top: 50%;
 }
 #description .place #second_one{
